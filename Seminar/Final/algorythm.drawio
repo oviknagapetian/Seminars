@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2023-05-05T21:42:06.103Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="WxS4UiPtg2ipQD5jKYFj" version="21.2.3" type="device">
+  <diagram name="Страница 1" id="JzK9PTFtIQ3xjsSG-dQI">
+    <mxGraphModel dx="794" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VlEdatSd8-oaQZH6e3ZC-1" target="VlEdatSd8-oaQZH6e3ZC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-1" value="Начало программы" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VlEdatSd8-oaQZH6e3ZC-2" target="VlEdatSd8-oaQZH6e3ZC-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-2" value="Ввод массива строк source" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="160" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VlEdatSd8-oaQZH6e3ZC-3" target="VlEdatSd8-oaQZH6e3ZC-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-3" value="Заполнение массива result&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&amp;nbsp;с помощью цикла for&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VlEdatSd8-oaQZH6e3ZC-7" target="VlEdatSd8-oaQZH6e3ZC-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-7" value="Копирование значений из&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;массива result в массив&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;finalResult&amp;nbsp;&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="560" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-12" value="&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;Конец программы&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VlEdatSd8-oaQZH6e3ZC-23" target="VlEdatSd8-oaQZH6e3ZC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-23" value="&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;Создание массива result и счётчика&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VlEdatSd8-oaQZH6e3ZC-31" target="VlEdatSd8-oaQZH6e3ZC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-31" value="Создание массива finalResult&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VlEdatSd8-oaQZH6e3ZC-32" target="VlEdatSd8-oaQZH6e3ZC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VlEdatSd8-oaQZH6e3ZC-32" value="&amp;nbsp;Вывод результата в консоль" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
