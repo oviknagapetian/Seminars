@@ -6,9 +6,8 @@ class Program
     {
         // Вводим исходный массив строк
         Console.Write("Введите строку, содержащую элементы массива, разделенные пробелом: ");
-        string input = Console.ReadLine();
+        string input = Console.ReadLine() ?? "";
         string[] source = input.Split(' ');
-
         // Создаем массив для хранения результата
         string[] result = new string[source.Length];
         int count = 0;
